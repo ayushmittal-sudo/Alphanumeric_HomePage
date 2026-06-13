@@ -3,8 +3,8 @@ import './navbar.css'
 const Navbar = () => {
   return (
     <div className="navbar">
+      <img src="https://alphanumericideas.com/images/alphanumeric-logo.webp" alt="" srcset=""/>
       <div className="navbar-container">
-        <a href="https://alphanumericideas.com/">AlphaNumeric Ideas</a>
         <a href="">Home</a>
         <a href="">About Us</a>
         <a href="">Our Services</a>
@@ -12,8 +12,9 @@ const Navbar = () => {
         <a href="">Careers</a>
         <a href="">Blog</a>
         <a href="">reviews</a>
-        <a href="">Contact Us</a>
+        
       </div>
+      <button>Contact Us</button>
     </div>
   )
 }

@@ -11,7 +11,9 @@ const MainFirst = () => {
                 </div>
                 <button>Get Free CONSULTATION</button>
             </div>
-            <div className="innerSecond">Mittal</div>
+            <div className="innerSecond">
+              <img src="https://alphanumericideas.com/images/header/google-partner.webp" height={400} width={500} alt="" />
+            </div>
         </div>
     </div>
   )

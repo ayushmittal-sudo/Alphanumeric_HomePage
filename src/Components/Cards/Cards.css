@@ -28,13 +28,13 @@
     height: 50%;
     width: 20%;
     gap: 20px;
-    background-color: #fff;
     border-radius: 30px;
    font-size: 12px;
    line-height: 24px;
    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, .07);
    transition: all .3s cubic-bezier(.215, .61, .355, 1);
    transform: translate(0,0);
+
 }
 h1{
     /* text-align: center; */
@@ -48,16 +48,19 @@ p{
     color: red;
 }
 .innersection1{
-    margin-top: 200px;
-}
-.innersection2{
-    margin-top: 100px;
+    background-color: rgb(229, 159, 193);
 }
 .innersection3{
-    margin-top: 20px;
+    background-color: rgb(159, 123, 195);
 }
+.innersection2{
+    margin-top: 200px;
+    background-color: rgb(111, 123, 32);
+}
+
 .innersection4{
-    margin-bottom: 60px;
+    margin-top: 200px;
+    background-color: aqua;
 }
 .innersection1:hover{
     background: transparent;
