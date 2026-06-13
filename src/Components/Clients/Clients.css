@@ -1,0 +1,14 @@
+.all-clients{
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+}

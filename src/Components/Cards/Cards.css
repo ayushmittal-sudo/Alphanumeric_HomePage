@@ -7,9 +7,7 @@
 
 .Cards{
     background-color: white;
-    box-sizing: border-box;
-    width: 100%;
-    height: 500px;
+    padding: 40px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,46 +15,59 @@
 .all-cards{
     display: flex;
     justify-content: space-between;
-    width: 85%;
-    height: 100%;
-    margin: auto;
-    background-color: antiquewhite;
-}
-.card1{
-    display: inline;
-    background-color: white;
-    height: 80%;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+    background-color: #FFFFFF;
+}    
+
+.innersection1, .innersection2, .innersection3, .innersection4{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 50%;
     width: 20%;
+    gap: 20px;
+    background-color: #fff;
     border-radius: 30px;
    font-size: 12px;
    line-height: 24px;
+   box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, .07);
+   transition: all .3s cubic-bezier(.215, .61, .355, 1);
+   transform: translate(0,0);
 }
-.card2{
-   display: inline;
-   
-    background-color: white;
-    height: 80%;
-    width: 20%;
-    border-radius: 30px;
-   font-size: 12px;
-   line-height: 24px;
+h1{
+    /* text-align: center; */
+    margin-top: 15px;
+    margin-left: 20px;
 }
-.card3{
-   display: inline;
-   
-    background-color: white;
-    height: 80%;
-    width: 20%;
-    border-radius: 30px;
-   font-size: 12px;
-   line-height: 24px;
+p{
+    margin-left: 15px;
 }
-.card4{
-    display: inline;
-    background-color: white;
-    height: 80%;
-    width: 20%;
-    border-radius: 30px;
-   font-size: 12px;
-   line-height: 24px;
+.all-cards a{
+    color: red;
+}
+.innersection1{
+    margin-top: 200px;
+}
+.innersection2{
+    margin-top: 100px;
+}
+.innersection3{
+    margin-top: 20px;
+}
+.innersection4{
+    margin-bottom: 60px;
+}
+.innersection1:hover{
+    background: transparent;
+}
+.innersection2:hover{
+    background: transparent;
+}
+.innersection3:hover{
+    background: transparent;
+}
+.innersection4:hover{
+    background: transparent;
 }
