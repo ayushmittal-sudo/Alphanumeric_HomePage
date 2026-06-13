@@ -1,11 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import Navbar from './Components/Navbar/Navbar';
+import MainFirst from './Components/MainFirst/MainFirst';
+import Cards from './Components/Cards/Cards';
+
 
 function App() {
   return (
+    <>
     <div className="App">
-      Ayush Mittafffl fgfg
+      <Navbar/>
+      <MainFirst/>
+      <Cards/>
     </div>
+    </>
+    
   );
 }
 

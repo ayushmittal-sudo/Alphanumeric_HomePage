@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 15px 0px;
+   background-color: #FFFFFF;
+   position: fixed;
+   height: 100px;
+   width: 100%;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+a{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+    padding: 20px 20px 14px;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 24px;
+    
+}
+a:hover{
+    color: red;
+}
+
+
+
